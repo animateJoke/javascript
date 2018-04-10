@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">删除</button>
+<script src="../js/jquery.js"></script>
+<script src="demo.js"></script>
+<script>
+$("#btn").on("click",function(){
+    con("温馨提示","确定要删除吗？","确定","取消",function(flag){
+        if(flag){
+            alert("进行确定的操作")
+        }else {
+            alert("进行取消的操作")
+        }
+    })
+})
+</script>
+</body>
+</html>
