@@ -15,10 +15,10 @@
             width : "80%",
             height : "50%",
             backgroundColor : "#ccc",
-            textAlign:"center"
+            textAlign : "center"
         });
         $box.find("button").on("click", function(){
-            $box.hide()
+            $box.hide();
             fn($(this).data("info"))
         })
     }
