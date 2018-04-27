@@ -9,8 +9,5 @@
 </a>
 
 
-## 移动端手势滑动轮播图
-<a href="https://animatejoke.github.io/javascript/移动端手势滑动轮播图/demo.html">
-演示页面
-</a>
+## 移动端手势滑动轮播图   <a href="https://animatejoke.github.io/javascript/移动端手势滑动轮播图/demo.html">演示页面</a>
 
