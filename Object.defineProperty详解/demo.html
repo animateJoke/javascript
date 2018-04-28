@@ -6,17 +6,27 @@
 </head>
 <body>
 <div id="app">
-    {{name}}<br/>{{name}}
+    {{name}}<br/>{{txt}}
     <input type="text" oninput="change(this)"/>
 </div>
 <button onclick="tab()">变换</button>
 <script type="text/javascript">
     var App = document.getElementById("app");
     var html = App.innerHTML;
+    console.log(html);
+
     function Vue(obj){
         console.log(obj.name);
         console.log(1);
-        var str = html.replace(/{{name}}/g, obj.name);
+        var str=html
+        for (var key in obj) {
+            console.log(key);
+            if(str.indexOf("{{"+key+"}}")!=-1){
+                console.log(1);
+                var reg=new RegExp("{{"+key+"}}","g")
+                str=str.replace(reg,obj[key])
+            }
+        }
         App.innerHTML=str
     }
 
