@@ -7,26 +7,53 @@
 <body>
 <script type="text/javascript">
     //字面量表达式定义对象默认enumerable、configurable、writable都为true
-    var obj={
-        name:"demo",
-        txt:"示例"
-    };
-    console.log(obj);
-    Object.keys(obj).forEach((e,i)=>{
-        console.log(obj);
-        Object.defineProperty(obj,e,{
-            enumerable: true,//为true时 该属性才会在for  in中枚举
-            configurable: false,//为true时  该属性才会被改变和删除
-            get: function proxyGetter() {
-              console.log("获取了"+e+"值",this);
-                return this[e]
-            },
-            set: function proxySetter(newVal) {
-                obj[key] = newVal;
-            }
-        })
-        console.log(obj);
+    var name="11",txt="22";
+    var obj={name,txt};
+    var obj2={}
+
+    for(var key of Object.keys(obj)){
+        console.log(key);
+            (function(key,value){
+                Object.defineProperty(obj2,key, {
+                    enumerable : true,
+                    configurable : true,
+                    get: function() {
+                        console.log("获取了"+key+"的值");
+                        return value;
+                    },
+                    set: function(newValue) {
+                        console.log("设置了"+key+"的值");
+                        value=newValue
+                    }
+                });
+            })(key,obj[key])
+    }
+    /*Object.defineProperty(obj,"name", {
+        enumerable : true,
+        configurable : true,
+        get: function() {
+            console.log("获取了name的值");
+            return name;
+        },
+        set: function(newValue) {
+            console.log("设置了name的值");
+            name=newValue
+        }
     });
+    Object.defineProperty(obj,"txt", {
+        enumerable : true,
+        configurable : true,
+        get: function() {
+            console.log("获取了txt的值");
+            return txt;
+        },
+        set: function(newValue) {
+            console.log("设置了txt的值");
+            txt=newValue
+        }
+    });*/
+    /*obj.name="demo";
+    obj.txt="示例"*/
 </script>
 </body>
 </html>
