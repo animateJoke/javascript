@@ -11,3 +11,10 @@
 
 ## 移动端手势滑动轮播图   <a href="https://animatejoke.github.io/javascript/移动端手势滑动轮播图/demo.html">演示页面</a>
 
+## Mock.js模拟数据结构
+
+<a href="https://animatejoke.github.io/javascript/mock.js学习demo/Mock.js">代码</a>
+
+## webpack单入口文件和多入口文件配置
+
+<a href="https://animatejoke.github.io/javascript/webpack">代码</a>

@@ -3,7 +3,11 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 var vue = require('vue-loader');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+
 module.exports = {
+
+    //重点区别
     entry: {
         app: './src/app.js',
         search: './src/search.js'
