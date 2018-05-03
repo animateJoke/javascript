@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../node_modules/mockjs/dist/mock-min.js"></script>
+<script src="../js/jquery@3.2.1.js"></script>
+<script>
+    var data=Mock.mock("http://test","post",function(options){
+        console.log(options.body);
+        if(options.body==='num=1'){
+            return Mock.mock({
+                'name':"@cname"
+            })
+        }
+    })
+    $.ajax({
+        url:"http://test",
+        type:"post",
+        dataType:"json",
+        data:{
+            num:1
+        }
+    }).then(function(res){
+        console.log(res);
+    })
+</script>
+</body>
+</html>
