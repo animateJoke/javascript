@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+<script src="d3.v5.js"></script>
+<script>
+    d3.select("body").style("background-color", "black");  // 直接选择 ->并设置属性
+    d3.selectAll("p").style("color", function() { // 选择 -> 动态设置属性
+        return "hsl(" + Math.random() * 360 + ",100%,50%)";
+    });
+    var ps=d3.select("body").selectAll("p") // 选择 -> 绑定数据 -> 动态设置属性
+        .data([4, 8, 15, 16, 23, 42])
+        .style("font-size", function(d) { return d + "px"; });
+    ps.enter().append("p") // 如果不一致，数组元素个数比p节点多，就插入p节点补足并相应更新文本
+        .style("font-size", function(d) { return d + "px"; });
+    /*// Update…
+    var p = d3.select("body") // 直接把数据绑定到Dom并输出，数组元素个数与p节点的个数一致就全部更新文本，如果不一致，就只更新现有p节点的文本，多余的数据会被保存起来，看下面会用到
+        .selectAll("p")
+        .data([4, 8, 15, 16, 23, 42])
+        .text(function(d) { return d; });
+
+    // Enter…[常用]
+    p.enter().append("p") // 如果不一致，数组元素个数比p节点多，就插入p节点补足并相应更新文本
+        .text(function(d) { return d; });
+
+    // Exit…[常用]
+    p.exit().remove(); // 如果不一致，数组元素个数比p节点少，就删除多余的p节点*/
+</script>
+</body>
+</html>

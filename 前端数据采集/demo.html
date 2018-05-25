@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="dataAcquisition.js"></script>
+<script>
+    badJsReport({
+        url:'http://www.baidu.com', //发送到后台的url  *必须
+        data:{},   //自定义添加上报参数，比如app版本，浏览器版本  -可省略
+        successCallBack:function(response, xml){
+            // 发送给后台成功的回调，-可省略
+        },
+        failCallBack:function(error){
+            // 发送给后台失败的回调，-可省略
+        }
+    })
+    console.log(b);
+</script>
+</body>
+</html>
