@@ -107,10 +107,8 @@
 
         if(!params.url){return}
         window.onerror = function(msg,url,line,col,error){
-
             //采用异步的方式,避免阻塞
             setTimeout(function(){
-
                 //不一定所有浏览器都支持col参数，如果不支持就用window.event来兼容
                 col = col || (window.event && window.event.errorCharacter) || 0;
 
@@ -139,7 +137,7 @@
                 }
                 // 合并上报的数据，包括默认上报的数据和自定义上报的数据
                 var reportData=extendObj(params.data || {},defaults);
-
+                console.log(reportData);
                 // 把错误信息发送给后台
                 ajax({
                     url: params.url,      //请求地址

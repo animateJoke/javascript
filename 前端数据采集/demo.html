@@ -8,13 +8,15 @@
 <script src="dataAcquisition.js"></script>
 <script>
     badJsReport({
-        url:'http://www.baidu.com', //发送到后台的url  *必须
+        url:'http://127.0.0.1:6664/home/test', //发送到后台的url  *必须
+        type:"GET",
         data:{},   //自定义添加上报参数，比如app版本，浏览器版本  -可省略
         successCallBack:function(response, xml){
             // 发送给后台成功的回调，-可省略
         },
         failCallBack:function(error){
             // 发送给后台失败的回调，-可省略
+            console.log("服务器错误");
         }
     })
     console.log(b);
