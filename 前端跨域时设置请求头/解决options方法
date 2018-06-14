@@ -1,0 +1,21 @@
+1、前端node 搭建代理服务器解决跨域问题时
+    项目用到JWT记录用户登陆状态；
+    需要修改请求头；
+    浏览器默认情况下会发送一个options预请求；
+    只有options请求确认允许跨域，并允许自定的header时才会发出真正的请求；
+
+    解决方案 ：
+    1、node代理服务器设置 只要是options请求就返回
+
+    if (method === 'OPTIONS')  {
+            res.append("Access-Control-Allow-Origin","*");
+            res.append("Access-Control-Allow-Headers","Authorization");
+            res.status(202).send();
+            return;
+        }
+
+    2、浏览器跨域设置
+
+    在浏览器属性->快捷方式->目标（T）后面加上 --args --disable-web-security  --user-data-dir
+
+    重启浏览器；
