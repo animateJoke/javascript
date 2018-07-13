@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var obj={
+        arr:{
+            a:1,
+            b:2
+        }
+    };
+//    var obj1=Object.assign(true,obj,{});当对象中还包含有应用类型时 Object.assign()无法对内部的引用类型进行复制
+    var str=JSON.stringify(obj);
+    var obj1=JSON.parse(str);
+    var obj2=Object.assign({},obj,{});
+    console.log(obj.arr);
+    console.log(obj1.arr);
+    console.log(obj2.arr);
+    obj.arr.a=3;
+    console.log(obj.arr);
+    console.log(obj1.arr);
+    console.log(obj2.arr);
+</script>
+</body>
+</html>

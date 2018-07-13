@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    console.groupCollapsed("abc")
+    console.log(123);
+    console.log(456);
+    console.log(789);
+    console.group("abc")
+    console.log(123);
+    console.groupEnd();
+    console.log(456);
+    console.groupEnd();
+    console.log(789);
+</script>
+</body>
+</html>
