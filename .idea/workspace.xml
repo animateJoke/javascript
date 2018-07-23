@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92b3ce82-4840-4513-aacb-dfc9a82511e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/缓存技术/manifest.txt" afterPath="$PROJECT_DIR$/缓存技术/manifest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +20,7 @@
       <file leaf-file-name="复制文本输入框的内容.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="285">
               <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#354#515#0" expanded="true" />
@@ -28,11 +29,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
+            <state relative-caret-position="456">
               <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataAcquisition.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#5058#5122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端数据采集/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="h5新增缓存技术.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/promise/promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+              <folding>
+                <element signature="e#1381#1424#0" expanded="true" />
+                <element signature="e#2310#3910#0" expanded="true" />
+                <element signature="e#2435#3702#0" expanded="true" />
+                <element signature="e#3989#4855#0" expanded="true" />
+                <element signature="e#4173#4589#0" expanded="true" />
+                <element signature="e#5054#5290#0" expanded="true" />
+                <element signature="e#5327#5577#0" expanded="true" />
+                <element signature="e#5611#6417#0" expanded="true" />
+                <element signature="e#5917#6205#0" expanded="true" />
+                <element signature="e#6461#8606#0" expanded="false" />
+                <element signature="e#6539#6809#0" expanded="true" />
+                <element signature="e#6900#7320#0" expanded="true" />
+                <element signature="e#7517#8004#0" expanded="true" />
+                <element signature="e#8101#8165#0" expanded="true" />
+                <element signature="e#8213#8388#0" expanded="true" />
+                <element signature="e#8461#8603#0" expanded="true" />
+                <element signature="e#8882#9109#0" expanded="false" />
+                <element signature="e#8949#9107#0" expanded="true" />
+                <element signature="e#9179#9339#0" expanded="false" />
+                <element signature="e#9249#9337#0" expanded="true" />
+                <element signature="e#9488#10943#0" expanded="false" />
+                <element signature="e#9757#10393#0" expanded="true" />
+                <element signature="e#9900#10337#0" expanded="true" />
+                <element signature="e#10109#10313#0" expanded="true" />
+                <element signature="e#10706#10858#0" expanded="true" />
+                <element signature="e#10762#10846#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chrome默认非安全端口" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端数据采集/chrome默认非安全端口">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-399">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,7 +132,7 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="323">
               <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
@@ -54,6 +145,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,6 +160,8 @@
         <option value="$PROJECT_DIR$/js 实现点击复制内容/复制字符串.html" />
         <option value="$PROJECT_DIR$/浏览器控制台输出/demo.html" />
         <option value="$PROJECT_DIR$/对象的深拷贝/demo.html" />
+        <option value="$PROJECT_DIR$/缓存技术/manifest.txt" />
+        <option value="$PROJECT_DIR$/promise/promise.js" />
       </list>
     </option>
   </component>
@@ -98,8 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,12 +204,27 @@
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
+              <item name="前端数据采集" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
+              <item name="多行文本溢出出现省略号JS操作" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
               <item name="对象的深拷贝" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
               <item name="浏览器控制台输出" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
+              <item name="缓存技术" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,18 +269,23 @@
       <workItem from="1530579933486" duration="768000" />
       <workItem from="1530666904320" duration="158000" />
       <workItem from="1531472366565" duration="2397000" />
+      <workItem from="1531809422365" duration="1402000" />
+      <workItem from="1531875481348" duration="822000" />
+      <workItem from="1531876420646" duration="1213000" />
+      <workItem from="1531986094031" duration="946000" />
+      <workItem from="1532317849639" duration="695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7812000" />
+    <option name="totallyTimeSpent" value="12890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13733906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18293992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -200,6 +314,250 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#354#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5058#5122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promise/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+          <folding>
+            <element signature="e#1381#1424#0" expanded="true" />
+            <element signature="e#2310#3910#0" expanded="true" />
+            <element signature="e#2435#3702#0" expanded="true" />
+            <element signature="e#3989#4855#0" expanded="true" />
+            <element signature="e#4173#4589#0" expanded="true" />
+            <element signature="e#5054#5290#0" expanded="true" />
+            <element signature="e#5327#5577#0" expanded="true" />
+            <element signature="e#5611#6417#0" expanded="true" />
+            <element signature="e#5917#6205#0" expanded="true" />
+            <element signature="e#6461#8606#0" expanded="false" />
+            <element signature="e#6539#6809#0" expanded="true" />
+            <element signature="e#6900#7320#0" expanded="true" />
+            <element signature="e#7517#8004#0" expanded="true" />
+            <element signature="e#8101#8165#0" expanded="true" />
+            <element signature="e#8213#8388#0" expanded="true" />
+            <element signature="e#8461#8603#0" expanded="true" />
+            <element signature="e#8882#9109#0" expanded="false" />
+            <element signature="e#8949#9107#0" expanded="true" />
+            <element signature="e#9179#9339#0" expanded="false" />
+            <element signature="e#9249#9337#0" expanded="true" />
+            <element signature="e#9488#10943#0" expanded="false" />
+            <element signature="e#9757#10393#0" expanded="true" />
+            <element signature="e#9900#10337#0" expanded="true" />
+            <element signature="e#10109#10313#0" expanded="true" />
+            <element signature="e#10706#10858#0" expanded="true" />
+            <element signature="e#10762#10846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#354#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5058#5122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#354#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5058#5122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#354#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -257,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制字符串.html" />
     <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="285">
           <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="e#354#515#0" expanded="true" />
@@ -265,19 +623,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="323">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/对象的深拷贝/demo.html">
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="19">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promise/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+          <folding>
+            <element signature="e#1381#1424#0" expanded="true" />
+            <element signature="e#2310#3910#0" expanded="true" />
+            <element signature="e#2435#3702#0" expanded="true" />
+            <element signature="e#3989#4855#0" expanded="true" />
+            <element signature="e#4173#4589#0" expanded="true" />
+            <element signature="e#5054#5290#0" expanded="true" />
+            <element signature="e#5327#5577#0" expanded="true" />
+            <element signature="e#5611#6417#0" expanded="true" />
+            <element signature="e#5917#6205#0" expanded="true" />
+            <element signature="e#6461#8606#0" expanded="false" />
+            <element signature="e#6539#6809#0" expanded="true" />
+            <element signature="e#6900#7320#0" expanded="true" />
+            <element signature="e#7517#8004#0" expanded="true" />
+            <element signature="e#8101#8165#0" expanded="true" />
+            <element signature="e#8213#8388#0" expanded="true" />
+            <element signature="e#8461#8603#0" expanded="true" />
+            <element signature="e#8882#9109#0" expanded="false" />
+            <element signature="e#8949#9107#0" expanded="true" />
+            <element signature="e#9179#9339#0" expanded="false" />
+            <element signature="e#9249#9337#0" expanded="true" />
+            <element signature="e#9488#10943#0" expanded="false" />
+            <element signature="e#9757#10393#0" expanded="true" />
+            <element signature="e#9900#10337#0" expanded="true" />
+            <element signature="e#10109#10313#0" expanded="true" />
+            <element signature="e#10706#10858#0" expanded="true" />
+            <element signature="e#10762#10846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/chrome默认非安全端口">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#5058#5122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
