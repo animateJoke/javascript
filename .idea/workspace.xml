@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92b3ce82-4840-4513-aacb-dfc9a82511e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/缓存技术/manifest.txt" afterPath="$PROJECT_DIR$/缓存技术/manifest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/缓存技术/h5新增缓存技术.html" afterPath="$PROJECT_DIR$/缓存技术/h5新增缓存技术.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataAcquisition.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataAcquisition.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端数据采集/dataAcquisition.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="741">
@@ -65,8 +65,68 @@
       <file leaf-file-name="h5新增缓存技术.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="266">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#275#313#0" expanded="true" />
+                <element signature="e#550#593#0" expanded="true" />
+                <element signature="e#687#727#0" expanded="true" />
+                <element signature="e#821#864#0" expanded="true" />
+                <element signature="e#964#1004#0" expanded="true" />
+                <element signature="e#1093#1133#0" expanded="true" />
+                <element signature="e#1216#1253#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="解决options方法" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/前端跨域时设置请求头/解决options方法">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/页面js加载/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+              <folding>
+                <element signature="e#792#841#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/浏览器跟踪功能/demo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -75,7 +135,7 @@
       <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/promise/promise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state relative-caret-position="684">
               <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
               <folding>
                 <element signature="e#1381#1424#0" expanded="true" />
@@ -112,7 +172,7 @@
       <file leaf-file-name="chrome默认非安全端口" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端数据采集/chrome默认非安全端口">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-399">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -144,8 +204,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -162,11 +223,24 @@
         <option value="$PROJECT_DIR$/对象的深拷贝/demo.html" />
         <option value="$PROJECT_DIR$/缓存技术/manifest.txt" />
         <option value="$PROJECT_DIR$/promise/promise.js" />
+        <option value="$PROJECT_DIR$/缓存技术/h5新增缓存技术.html" />
+        <option value="$PROJECT_DIR$/页面js加载/demo.html" />
+        <option value="$PROJECT_DIR$/ajax/tsconfig.json" />
+        <option value="$PROJECT_DIR$/ajax/demo.html" />
+        <option value="$PROJECT_DIR$/浏览器跟踪功能/demo.html" />
+        <option value="$PROJECT_DIR$/demo.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -192,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,42 +277,40 @@
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
-              <item name="前端数据采集" type="462c0819:PsiDirectoryNode" />
+              <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
-              <item name="多行文本溢出出现省略号JS操作" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
-              <item name="对象的深拷贝" type="462c0819:PsiDirectoryNode" />
+              <item name="浏览器跟踪功能" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
               <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
-              <item name="浏览器控制台输出" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myjavascript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myjavascript" type="462c0819:PsiDirectoryNode" />
-              <item name="缓存技术" type="462c0819:PsiDirectoryNode" />
+              <item name="页面js加载" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="settings.editor.splitter.proportion" value="0.27927062" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,19 +344,26 @@
       <workItem from="1531875481348" duration="822000" />
       <workItem from="1531876420646" duration="1213000" />
       <workItem from="1531986094031" duration="946000" />
-      <workItem from="1532317849639" duration="695000" />
+      <workItem from="1532317849639" duration="1903000" />
+      <workItem from="1532394157052" duration="1438000" />
+      <workItem from="1533115935321" duration="709000" />
+      <workItem from="1533200750548" duration="1649000" />
+      <workItem from="1533258770685" duration="1252000" />
+      <workItem from="1533287228544" duration="1949000" />
+      <workItem from="1533631674250" duration="3267000" />
+      <workItem from="1533691145903" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12890000" />
+    <option name="totallyTimeSpent" value="24390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18293992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23015021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -314,6 +392,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/promise/promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+          <folding>
+            <element signature="e#1381#1424#0" expanded="true" />
+            <element signature="e#2310#3910#0" expanded="true" />
+            <element signature="e#2435#3702#0" expanded="true" />
+            <element signature="e#3989#4855#0" expanded="true" />
+            <element signature="e#4173#4589#0" expanded="true" />
+            <element signature="e#5054#5290#0" expanded="true" />
+            <element signature="e#5327#5577#0" expanded="true" />
+            <element signature="e#5611#6417#0" expanded="true" />
+            <element signature="e#5917#6205#0" expanded="true" />
+            <element signature="e#6461#8606#0" expanded="false" />
+            <element signature="e#6539#6809#0" expanded="true" />
+            <element signature="e#6900#7320#0" expanded="true" />
+            <element signature="e#7517#8004#0" expanded="true" />
+            <element signature="e#8101#8165#0" expanded="true" />
+            <element signature="e#8213#8388#0" expanded="true" />
+            <element signature="e#8461#8603#0" expanded="true" />
+            <element signature="e#8882#9109#0" expanded="false" />
+            <element signature="e#8949#9107#0" expanded="true" />
+            <element signature="e#9179#9339#0" expanded="false" />
+            <element signature="e#9249#9337#0" expanded="true" />
+            <element signature="e#9488#10943#0" expanded="false" />
+            <element signature="e#9757#10393#0" expanded="true" />
+            <element signature="e#9900#10337#0" expanded="true" />
+            <element signature="e#10109#10313#0" expanded="true" />
+            <element signature="e#10706#10858#0" expanded="true" />
+            <element signature="e#10762#10846#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端数据采集/chrome默认非安全端口">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/manifest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器控制台输出/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#275#313#0" expanded="true" />
+            <element signature="e#550#593#0" expanded="true" />
+            <element signature="e#687#727#0" expanded="true" />
+            <element signature="e#821#864#0" expanded="true" />
+            <element signature="e#964#1004#0" expanded="true" />
+            <element signature="e#1093#1133#0" expanded="true" />
+            <element signature="e#1216#1253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js 实现点击复制内容/复制文本输入框的内容.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -355,7 +508,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#275#313#0" expanded="true" />
+            <element signature="e#550#593#0" expanded="true" />
+            <element signature="e#687#727#0" expanded="true" />
+            <element signature="e#821#864#0" expanded="true" />
+            <element signature="e#964#1004#0" expanded="true" />
+            <element signature="e#1093#1133#0" expanded="true" />
+            <element signature="e#1216#1253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -467,7 +628,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="e#275#313#0" expanded="true" />
+            <element signature="e#550#593#0" expanded="true" />
+            <element signature="e#687#727#0" expanded="true" />
+            <element signature="e#821#864#0" expanded="true" />
+            <element signature="e#964#1004#0" expanded="true" />
+            <element signature="e#1093#1133#0" expanded="true" />
+            <element signature="e#1216#1253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,7 +697,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
+          <folding>
+            <element signature="e#275#313#0" expanded="true" />
+            <element signature="e#550#593#0" expanded="true" />
+            <element signature="e#687#727#0" expanded="true" />
+            <element signature="e#821#864#0" expanded="true" />
+            <element signature="e#964#1004#0" expanded="true" />
+            <element signature="e#1093#1133#0" expanded="true" />
+            <element signature="e#1216#1253#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -602,13 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端跨域时设置请求头/解决options方法">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -647,17 +817,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/promise/promise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="684">
           <caret line="131" column="31" lean-forward="false" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
           <folding>
             <element signature="e#1381#1424#0" expanded="true" />
@@ -692,7 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/前端数据采集/chrome默认非安全端口">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -714,6 +876,72 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#5058#5122#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/缓存技术/h5新增缓存技术.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#275#313#0" expanded="true" />
+            <element signature="e#550#593#0" expanded="true" />
+            <element signature="e#687#727#0" expanded="true" />
+            <element signature="e#821#864#0" expanded="true" />
+            <element signature="e#964#1004#0" expanded="true" />
+            <element signature="e#1093#1133#0" expanded="true" />
+            <element signature="e#1216#1253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端跨域时设置请求头/解决options方法">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/页面js加载/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#792#841#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/浏览器跟踪功能/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

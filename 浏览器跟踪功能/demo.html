@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var isDoNotTrack = (navigator.msDoNotTrack || window.doNotTrack || navigator.doNotTrack) == '1';
+    console.log(isDoNotTrack ? "不跟踪":"跟踪");
+    // 如果设置“不跟踪”，isDoNotTrack为true
+</script>
+</body>
+</html>

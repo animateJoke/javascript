@@ -6,5 +6,46 @@
 </head>
 <body>
 <script src="../js/jquery@3.2.1.js"></script>
+<script>
+    // 离线资源存储完成之后触发
+    window.applicationCache.addEventListener('cached', function () {
+        console.log('cached');
+    });
+
+    // 离线存储资源进行更新检查的时候会触发
+    window.applicationCache.addEventListener('checking', function () {
+        console.log('checking');
+    });
+
+    // 开始下载离线资源的时候会触发
+    window.applicationCache.addEventListener('downloading', function () {
+        console.log('downloading');
+    });
+
+    // 下载每一个资源的时候会触发
+    window.applicationCache.addEventListener('progress', function () {
+        console.log('progress');
+    });
+
+    // 离线资源更新完成之后
+    window.applicationCache.addEventListener('updateready', function () {
+        console.log('updateready');
+    });
+
+    // 检查更新之后发现没有资源更新的时候触发
+    window.applicationCache.addEventListener('noupdate', function () {
+        console.log('noupdate');
+    });
+
+    // obsolete
+    window.applicationCache.addEventListener('obsolete', function () {
+        console.log('obsolete');
+    });
+
+    // error
+    window.applicationCache.addEventListener('error', function () {
+        console.log('error');
+    });
+</script>
 </body>
 </html>
