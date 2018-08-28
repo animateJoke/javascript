@@ -1,0 +1,154 @@
+{
+  "drawBoardId": 136, //产品ID
+  "propId": [
+    49, //颜色 id
+    42 //尺寸id
+  ],
+  "catId": [
+    39 //菜单点击id 39 全部
+  ],
+  "drawBoardBg": [
+    {
+      "drawBoardBgId": 139, //背景大图 id
+      "height": 640.1544,
+      "width": 480,
+      "material": [
+        {
+          "angle": 0,
+          "categoryType": "BADGE",
+          "type": "MATERIAL",
+          "index": 0,
+          "materialId": 372,
+          "x": 295.7293,
+          "y": 220.9106,
+          "width": 31.9003,
+          "height": 42.544,
+          "attachParam": {
+            "Rtop": 47.01095479194319,
+            "Rleft": 186.54006212083738,
+            "Rwidth": 31.90032,
+            "Rheight": 42.54402393822394,
+            "Rangle": 0,
+            "Rrotate": 0,
+            "Rscale": 1,
+            "R_top": 221.890625,
+            "R_left": 296.71875,
+            "R_width": 31.890625,
+            "R_height": 48.625,
+            "Rx": 311.6794113100266,
+            "Ry": 318.18258066066903,
+            "Rr": 26.58770575359301
+          },
+          "centerX": 311.6794113100266,
+          "centerY": 242.18258066066903
+        },
+        {
+          "angle": 0,
+          "categoryType": "PRINTING",
+          "type": "MATERIAL",
+          "index": 1,
+          "materialId": 1590,
+          "x": 195.5444,
+          "y": 309.2896,
+          "width": 92,
+          "height": 92,
+          "attachParam": {
+            "Rtop": 135.3899613899614,
+            "Rleft": 86.35521235521236,
+            "Rwidth": 92,
+            "Rheight": 92,
+            "Rangle": 0,
+            "Rrotate": 0,
+            "Rscale": 1,
+            "R_top": 309.2895752895753,
+            "R_left": 195.54440154440155,
+            "R_width": 92,
+            "R_height": 92,
+            "Rx": 241.54440154440155,
+            "Ry": 431.2895752895753,
+            "Rr": 65.05382386916237
+          },
+          "centerX": 241.54440154440155,
+          "centerY": 355.2895752895753
+        },
+        {
+          "angle": 0,
+          "categoryType": "PRINTING",
+          "type": "MATERIAL",
+          "index": 2,
+          "materialId": 399,
+          "x": 185.4824,
+          "y": 383.3126,
+          "width": 92,
+          "height": 92,
+          "attachParam": {
+            "Rtop": 209.41294112628952,
+            "Rleft": 76.29320063646236,
+            "Rwidth": 92,
+            "Rheight": 92,
+            "Rangle": 0,
+            "Rrotate": 0,
+            "Rscale": 1,
+            "R_top": 384.296875,
+            "R_left": 186.46875,
+            "R_width": 92,
+            "R_height": 92,
+            "Rx": 231.48238982565155,
+            "Ry": 505.3125550259034,
+            "Rr": 65.05382386916237
+          },
+          "centerX": 231.48238982565155,
+          "centerY": 429.3125550259034
+        },
+        {
+          "angle": 0,
+          "categoryType": "PRINTING",
+          "type": "MATERIAL",
+          "index": 4,
+          "materialId": 1595,
+          "x": 175.4204,
+          "y": 244.8896,
+          "width": 92,
+          "height": 69,
+          "attachParam": {
+            "Rtop": 70.98996749347702,
+            "Rleft": 66.23120417650142,
+            "Rwidth": 92,
+            "Rheight": 69,
+            "Rangle": 0,
+            "Rrotate": 0,
+            "Rscale": 1,
+            "R_top": 245.875,
+            "R_left": 176.40625,
+            "R_width": 92,
+            "R_height": 69,
+            "Rx": 221.42039336569061,
+            "Ry": 355.3895813930909,
+            "Rr": 57.5
+          },
+          "centerX": 221.42039336569061,
+          "centerY": 279.3895813930909
+        }
+      ]
+    },
+    {
+      "drawBoardBgId": 140,
+      "height": 640,
+      "width": 480,
+      "material": []
+    },
+    {
+      "drawBoardBgId": 141,
+      "height": 639.8991,
+      "width": 480,
+      "material": []
+    },
+    {
+      "drawBoardBgId": 142,
+      "height": 639.8991,
+      "width": 480,
+      "material": []
+    }
+  ],
+  "userId": 21226
+}

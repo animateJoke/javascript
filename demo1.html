@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            height:3000px
+        }
+        .box{
+            width:100px;
+            height:100px;
+            background-color:#000;
+        }
+        .box1{
+            height:2000px;
+
+        }
+    </style>
+</head>
+<body>
+<input number="true" min="0.01" type="text" class="form-control input-sm" id="asmperiod_cost" name="asmperiod_cost" required title="请以OA中已审批通过的成本评估表为准">
+<div class="box1"></div>
+<div class="box"></div>
+<script src="./js/jquery@2.2.4.js"></script>
+<script>
+    $(function(){
+        var top=$(".box").offset().top;
+        $(".box").css({
+            position:"fixed",
+            bottom:0,
+            right:"8px"
+        })
+        $(window).on("scroll",function(e){
+            console.log(window.scrollY + window.innerHeight,top);
+            if(window.scrollY+window.innerHeight<=top+100){
+                $(".box").css({
+                    position:"fixed",
+                    bottom:0,
+                    left:"8px"
+                })
+            }else {
+                $(".box").css({
+                    position:"static"
+                })
+            }
+        })
+    })
+</script>
+</body>
+</html>

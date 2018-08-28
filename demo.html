@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="./js/jquery@2.2.4.js"></script>
+<script>
+    var jsonp_1533718999982_36498=(res)=>{
+        if(res.module[0].avail){
+            console.log(res.module[0].name);
+        }
+    }
+</script>
+<!--<script src="https://checkapi.aliyun.com/check/checkdomain?domain=asda.com&command=&token=Ya164ef39199f286e7ac364d9e085f99a&ua=&currency=&site=&bid=&_csrf_token=&callback=jsonp_1533718999982_36498">
+</script>-->
+<!--<script src="https://checkapi.aliyun.com/check/checkdomain?domain=asda.com&command=&token=Ya164ef39199f286e7ac364d9e085f99a&ua=&currency=&site=&bid=&_csrf_token=&callback=jsonp_1533718999982_36498">
+</script>-->
+<script>
+
+    function aa(num){
+        //48-57  65-90 97-122
+        var str=[]
+        for(var i=48; i<58; i++){
+            str.push(String.fromCharCode(i))
+        }
+        for(var i=97; i<123; i++){
+            str.push(String.fromCharCode(i))
+        }
+       if(num===1){
+           return str
+       }else {
+           var res=[];
+           var arr=aa(num-1);
+           for(var i=0; i<str.length; i++){
+               for(var k=0; k<arr.length; k++){
+                   res.push(str[i]+arr[k])
+               }
+           }
+           return res
+       }
+    }
+
+console.log(aa(3));
+
+//    var str1="",str2="",str3="";
+    /*for(var i=3; i<4; i++){
+        for(var k=0; k<i; k++){
+            for(var j=97; j<123; j++){
+                str1=String.fromCharCode(j);
+                for(var a=97; a<123; a++){
+                    str2=String.fromCharCode(a);
+                    for(var b=97; b<123; b++){
+                        str3=String.fromCharCode(b);
+                        /!*var S=document.createElement("script");
+                        S.src="https://checkapi.aliyun.com/check/checkdomain?domain="+str1+str2+str3+".com&command=&token=Ya164ef39199f286e7ac364d9e085f99a&ua=&currency=&site=&bid=&_csrf_token=&callback=jsonp_1533718999982_36498";
+                        document.body.appendChild(S)*!/
+                        console.log(str1 + str2 + str3);
+                    }
+                }
+            }
+        }
+    }*/
+//    charCodeAt(a)
+</script>
+</body>
+</html>
