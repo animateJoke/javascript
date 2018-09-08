@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function aFun(){
+        function _(arg){
+            this.arg = arg;
+        }
+
+        _.prototype.testFun = function(){
+            console.log('this is prototype testFun')
+        };
+
+        _.testFun2 = function(){
+            console.log('this is testFunc2');
+        }
+
+        return _;
+    };
+
+    var afun = aFun('123');
+    afun.testFun2(); //可以调用
+    new afun().testFun(); //不是在原型链上么？，为啥不可以调用？？？，
+//
+//
+//    var aFun2 = (function (){
+//        function _(arg){
+//            this.arg = arg;
+//        }
+//
+//        _.prototype.testFun = function(){
+//            console.log('this is prototype testFun')
+//        };
+//
+//        _.testFun2 = function(){
+//            console.log('this is testFunc2');
+//        }
+//
+//        return _;
+//    })();
+//
+//    var afun2 = new aFun2('ddd');
+//    //console.log(afun2 instanceof aFun2)
+//    afun2.testFun2(); //不可以调用，为啥？
+//    afun2.testFun(); //可以调用，为啥可以？（我要疯了）
+//
+//    function aFun3(arg){
+//        this._arg = arg;
+//
+//        //function test
+//    }
+//
+//    aFun3.prototype.testFun = function(){
+//        console.log('this is aFun3 prototype testFun')
+//    };
+//    aFun3.testFun2 = function(){  //这个函数和aFun3还有关系吗？
+//        console.log('this is aFun2 testFun2');
+//    }
+//
+//    var afun3 = new aFun3('abc');
+//    afun3.testFun();
+</script>
+</body>
+</html>

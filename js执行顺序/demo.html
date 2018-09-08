@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script src="../js/jquery@2.2.4.js"></script>
+<script>
+    $(function(){
+        let arr = [1,2,3,4,5];
+        for(var i=0,len=arr.length; i<len; i++){
+            let btn=$("<button>"+"按钮"+i+"</button>");
+            btn.on("click",function(){
+                alert(i)
+            })
+            $("body").append(btn) //所有点击都是 alert ( 5 )
+        }
+
+        for(var i=0,len=arr.length; i<len; i++){
+            let btn=$("<button>"+"按钮二"+i+"</button>");
+            (function(btn,i){
+                btn.on("click",function(){
+                    alert(i)
+                });
+            })(btn,i);
+            $("body").append(btn) // alert ( 0 ) alert ( 1 ) alert ( 2 ) alert ( 3 ) alert ( 4 )
+        }
+    })
+</script>
+</body>
+</html>

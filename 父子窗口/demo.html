@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            background-color:#000;
+            transition:all 0.5s;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<button id="btn1">跳转/刷新</button>
+<script src="../js/jquery@2.2.4.js"></script>
+<script>
+    $(function(){
+        var d=null;
+        $("#btn1").on("click",function(){
+            console.log($.parseJSON('{"asdasd":"asdasd"}'));
+
+        })
+        $("div").css({width:"300px"})
+       /* sessionStorage.setItem("d","null");
+        $("#btn1").on("click",function(){
+            if(d===null){
+                d=window.open("https://www.baidu.com","新窗口",{top:300,left:300},true);
+                d.focus()
+                console.log(d);
+            }else {
+                d.location.href="https://bbs.csdn.net/topics/392442556"
+            }
+        })
+        $(window).on("unload",function(){
+            d.close()
+        })*/
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        tr{
+            width:100px;
+            height:100px;
+            background-color:#000;
+            display:block;
+        }
+    </style>
+</head>
+<body>
+<form id="myform">
+    <input id="btn" type="submit" value="去百度"/>
+</form>
+<a href="https://www.baidu.com" onclick="fn()">去百度</a>
+<script src="./js/jquery@2.2.4.js"></script>
+<script>
+
+    $("#btn").on("click",function(event){
+        console.dir(event.preventDefault);
+            event.preventDefault();
+    })
+    $("#myform").on("submit",function(event){
+        console.log("提交");
+    })
+    $("#btn").on("click",function(event){
+        console.log(event.preventDefault.call(event));
+        console.log(event.originalEvent.defaultPrevented=false);
+    });
+    //    $("#myform").on("submit",function(event){
+//        event.isSimulated=true;
+//        console.dir(event.isSimulated);
+//        console.log($(this).originalEvent);
+//
+//    })
+</script>
+</body>
+</html>
