@@ -64,5 +64,36 @@ console.log(aa(3));
     }*/
 //    charCodeAt(a)
 </script>
+
+
+    <input type="text" name="name">
+    <input type="text" name="ryzh">
+    <input type="text" name="zb">
+
+<script>
+    $(function(){
+        $("input").on("blur",function(){
+            let key = $(this).attr("name");
+            let value = $(this).val()
+            $.ajax({
+                url:"后端接口地址",
+                data:{
+                    key:key,
+                    val:val
+                }
+            }).then((res)=>{
+//               后端返回数据 res.data 的格式
+                /*{
+                    name:"姓名",
+                    ryzh:"人员账号",
+                    zb:"组别"
+                }*/
+                for (var key in res.data) {
+                    $("input[name="+key+"]").val(res.data[key])
+                }
+            })
+        })
+    })
+</script>
 </body>
 </html>

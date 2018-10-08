@@ -19,9 +19,10 @@
 <script>
     $(function(){
         var d=null;
+        window.d="asds"
         $("#btn1").on("click",function(){
-            console.log($.parseJSON('{"asdasd":"asdasd"}'));
-
+//            console.log($.parseJSON('{"asdasd":"asdasd"}'));
+            window.open("./demo1.html","新窗口");
         })
         $("div").css({width:"300px"})
        /* sessionStorage.setItem("d","null");

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <style>
+        #container {width:300px; height: 180px; }
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&key=09142cb6d7a5321d33287974da8f1863"></script>
+<div id="container"></div>
+<script>
+    AMap.plugin('AMap.DistrictSearch', function () {
+        var districtSearch = new AMap.DistrictSearch({
+            // 关键字对应的行政区级别，country表示国家
+            level: 'country',
+            //  显示下级行政区级数，1表示返回下一级行政区
+            subdistrict: 6
+        })
+
+        // 搜索所有省/直辖市信息
+        districtSearch.search('中国', function(status, result) {
+            // 查询成功时，result即为对应的行政区信息
+            console.log(status, result);
+        })
+    })
+</script>
+</body>
+</html>
